@@ -72,11 +72,6 @@ img {
     text-decoration: none;
 }
 
-.header_logo {
-    width: 148px;
-    height: 105px;
-}
-
 .address {
     padding-left: 185px;
     font-size: 18px;
@@ -87,6 +82,10 @@ img {
     font-style: normal;
 }
 
+.header_logo {
+    width: 148px;
+    height: 105px;
+}
 
 .cover {
     position: relative;
@@ -97,6 +96,14 @@ img {
     z-index: 0;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.cover_title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 165px 50px 147px;
+    gap: 20px;
 }
 
 .overlay {
@@ -111,23 +118,10 @@ img {
     z-index: -1;
 }
 
-.cover_title {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 165px 50px 147px;
-    gap: 20px;
-}
-
 .cover_title span {
     font-size: 100px;
     font-weight: 700;
     line-height: 100%;
-}
-
-.text_cover {
-    display: block;
-    line-height: 125px;
 }
 
 .text_center {
@@ -135,14 +129,19 @@ img {
     line-height: 125px;
 }
 
-.text_right {
-    text-align: right;
-    line-height: 120px;
+.text_cover {
+    display: block;
+    line-height: 125px;
 }
 
 .text_cover {
     letter-spacing: 30px;
     
+}
+
+.text_right {
+    text-align: right;
+    line-height: 120px;
 }
 
 .text_cover .no_letter_spacing {
@@ -170,6 +169,16 @@ img {
     word-spacing: 18px;
 }
 
+.title_lots {
+    padding-top: 179px;
+    padding-bottom: 26px;
+    padding-left: 64px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .button {
     width: 256px;
     height: 51px;
@@ -183,27 +192,15 @@ img {
     text-align: center;
 }
 
-.title_lots {
-    padding-top: 179px;
-    padding-bottom: 26px;
-    padding-left: 64px;
-    color: #000;
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
 .container_lots {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     gap: 25px;
     justify-content: flex-start;
-    /* указал start */
     padding: 0;
     margin: 0 auto;
     margin-left: 20px;
-    /* левый отступ чтобы совпадало с макетом */
 }
 
 .card_lots a {
@@ -242,6 +239,10 @@ img {
     background-image: url(assets/photo\ \(1\).png);
 }
 
+.link_lots {
+    text-decoration: none;
+}
+
 .card_title {
     color: white;
     font-size: 22px;
@@ -249,10 +250,6 @@ img {
     line-height: 120%;
     text-decoration-line: underline;
     text-transform: uppercase;
-}
-
-.link_lots {
-    text-decoration: none;
 }
 
 .text_on_card {
@@ -354,6 +351,10 @@ img {
     text-underline-offset: 3px;
 }
 
+.footer_main {
+    text-decoration: none;
+}
+
 .footer_links {
     color: black;
     text-align: center;
@@ -362,16 +363,12 @@ img {
     line-height: normal;
 }
 
-.footer_main {
-    text-decoration: none;
+.footer_images {
+    display: flex;
+    gap: 48px;
 }
 
 .images_footer {
     width: 48px;
     height: 48px;
-}
-
-.footer_images {
-    display: flex;
-    gap: 48px;
 }
