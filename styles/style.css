@@ -142,17 +142,17 @@ img {
 
 .text_cover {
     letter-spacing: 30px;
-    /* буква о разрыв 30, буквы те разрыв 30, буквы ад разрыв 30 */
+    
 }
 
 .text_cover .no_letter_spacing {
     letter-spacing: 0px;
-    /* сброс межбуквенного разрыва */
+    
 }
 
 .text_cover .letter_spacing {
     letter-spacing: 60px;
-    /* буквы но разрыв 60, буквы бе разрыв 60, буква н разрыв 60 */
+    
 }
 
 .cover_description {
@@ -208,7 +208,7 @@ img {
 
 .card_lots a {
     text-decoration: none;
-    /* дефолтное подчеркивание текста убрано */
+    
 }
 
 .card_lots {
